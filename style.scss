@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+
+.header {
+    background-image: url(img/bghead.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1024px;
+
+    &__head {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        color: #FFFFFF;
+        max-width: 788px;
+        padding-top: 217px;
+        padding-bottom: 32px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        max-width: 480px;
+        padding-bottom: 44px;
+
+        &_link {
+            color: #FFFFFF;
+            font-weight: 900;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__button {
+        width: 234.06px;
+        height: 48.6px;
+        background: #9C0332;
+        border: 1px solid #9c0332;
+        box-sizing: border-box;
+        border-radius: 30px;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.game {
+    height: 556px;
+    background-image: url(img/bgbody.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    gap: 32px;
+    padding-top: 128px;
+
+    &__text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    &__img {
+        max-width: 379px;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.text-1 {
+    position: absolute;
+    z-index: 2;
+    top: 1380px;
+    left: 370px;
+}
+
+.text-2 {
+    position: absolute;
+    z-index: 2;
+    top: 1380px;
+    left: 780px;
+}
+
+.text-3 {
+    position: absolute;
+    z-index: 2;
+    top: 1380px;
+    left: 1190px;
+}
+
+.sss {
+    transition: all 0.4s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+}
