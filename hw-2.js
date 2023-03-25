@@ -34,10 +34,10 @@ let c = 2; // плохой вид переменной, сделал тольк�
 alert(9 % 2);
 
 let num = 1;
-num = num + 5;
-num = num - 3;
-num = num * 7;
-num = num / 3;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
 num++;
 num--;
 alert(num);
