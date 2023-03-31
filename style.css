@@ -54,7 +54,7 @@ body {
   text-decoration: underline;
 }
 
-.header__button {
+.header__button_go {
   width: 234.06px;
   height: 48.6px;
   background: #9C0332;
@@ -69,7 +69,7 @@ body {
   transition: all 0.3s;
 }
 
-.header__button:hover {
+.header__button_go:hover {
   background: #EB443F;
   border: 1px solid #EB443F;
   cursor: url(img/Vector.svg), pointer;
@@ -144,6 +144,53 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+
+@media (max-width:767px) {
+
+.center {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.header {
+  height: 735px;
+}
+
+.header__head {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  padding-top: 238px;
+  padding-bottom: 33px;
+}
+
+.header__text {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  flex-direction: column;
+  height: 1221px;
+}
+
+.game__box {
+  width: 343px;
+  border-radius: 16px;
+}
+
 }
 
 
