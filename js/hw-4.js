@@ -3,8 +3,8 @@
 let a = 0;
 
 while (a < 2) {
-  console.log('Привет');
-  a++;
+    console.log('Привет');
+    a++;
 }
 
 
@@ -13,8 +13,8 @@ while (a < 2) {
 let b = 1;
 
 while (b <= 5) {
-  console.log(b);
-  b++;
+    console.log(b);
+    b++;
 }
 
 // Задание 3
@@ -22,20 +22,20 @@ while (b <= 5) {
 let c = 7;
 
 while (c <= 22) {
-  console.log(c);
-  c++;
+    console.log(c);
+    c++;
 }
 
 // Задание 4
 
 let obj = {
-  'Коля': 200,
-  'Вася': 300,
-  'Петя': 400
+    'Коля': 200,
+    'Вася': 300,
+    'Петя': 400
 };
 
 for (let salary in obj) {
-  console.log(`${salary} — зарплата ${obj[salary]} долларов.`);
+    console.log(`${salary} — зарплата ${obj[salary]} долларов.`);
 }
 
 // Задание 5
@@ -44,8 +44,8 @@ let d = 1000;
 let num = 0;
 
 while (d >= 50) {
-  d /= 2;
-  num++;
+    d /= 2;
+    num++;
 }
 
 console.log(d);
@@ -56,5 +56,8 @@ console.log(num);
 const firstFriday = 5;
 
 for (let day = firstFriday; day <= 31; day += 7) {
-  console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
+    console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
 }
+
+
+
