@@ -3,8 +3,8 @@
 const num = [1, 5, 4, 10, 0, 3];
 
 for (let i = 0; i < num.length; i++) {
-    if (num[i] == 10) break;
     console.log(num[i]);
+    if (num[i] == 10) break;
 }
 
 // Задание 2
@@ -55,6 +55,10 @@ variab.sort();
 variab = variab.filter(item => typeof item === 'number');
 console.log(variab);
 
+// Другой способ решения задачи:
+// const arrd = [9, 8, 7, 'a', 6, 5];
+// arrd.sort().pop();
+// console.log(arrd);
 
 // Задание 7
 
