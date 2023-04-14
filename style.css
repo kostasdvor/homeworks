@@ -55,6 +55,7 @@ body {
 }
 
 .header__button_go {
+  font-family: "Montserrat", sans-serif;
   width: 234.06px;
   height: 48.6px;
   background: #9C0332;
@@ -172,7 +173,7 @@ body {
 
 .seasons__text {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
@@ -180,6 +181,7 @@ body {
 }
 
 .seasons__button_go {
+  font-family: "Montserrat", sans-serif;
   background: #9C0332;
   border: 1px solid #9c0332;
   border-radius: 30px;
@@ -206,6 +208,68 @@ body {
 .seasons__svg_mob {
   display: none;
 }
+
+.second-game {
+  height: 800px;
+  background-image: url(img/block3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  gap: 140px;
+  flex-direction: row-reverse;
+  padding-top: 242px;
+}
+
+.remember {
+  width: 600px;
+}
+
+.remember__head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+  padding-top: 40px;
+}
+
+.remember__text {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+}
+
+.remember__button_go {
+  font-family: "Montserrat", sans-serif;
+  background: #9C0332;
+  border: 1px solid #9c0332;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 234.06px;
+  height: 48.6px;
+  color: #FFFFFF;
+  transition: all 0.3s;
+}
+
+.remember__button_go:hover {
+  background: #EB443F;
+  border: 1px solid #EB443F;
+  cursor: url(img/Vector.svg), pointer;
+}
+
+.remember__svg_mob {
+  display: none;
+}
+
+
 
 
 @media (max-width:767px) {
@@ -264,7 +328,15 @@ body {
   display: none;
 }
 
+.remember__svg_desktop {
+  display: none;
+}
+
 .seasons__svg_mob {
+  display: block;
+}
+
+.remember__svg_mob {
   display: block;
 }
 
@@ -287,6 +359,39 @@ body {
 }
 
 .seasons__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remember {
+  width: 343px;
+}
+
+.remember__svg {
+  padding-top: 64px;
+}
+
+.second-game {
+  display: block;
+  height: 654px;
+  padding-top: 0px;
+}
+
+.remember__head {
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  padding-top: 51px;
+}
+
+.remember__text {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.remember__button {
   display: flex;
   align-items: center;
   justify-content: center;
