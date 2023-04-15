@@ -8,19 +8,19 @@ console.log(str);
 
 function searchStart(arr, str) {
 
-    str = str.toLowerCase();
+str = str.toLowerCase();
 
-    const resultArr = [];
+const resultArr = [];
 
-    for (let i = 0; i < arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
 
-        const arrElement = arr[i].toLowerCase();
+    const arrElement = arr[i].toLowerCase();
 
-        if (arrElement.startsWith(str)) {
-            resultArr.push(arr[i]);
-        }
+    if (arrElement.startsWith(str)) {
+        resultArr.push(arr[i]);
     }
-    return resultArr;
+}
+return resultArr;
 }
 
 console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'));

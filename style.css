@@ -317,7 +317,7 @@ body {
 }
 
 .seasons {
-  width: 343px;
+  width: 100%;
 }
 
 .seasons__svg {
@@ -334,10 +334,12 @@ body {
 
 .seasons__svg_mob {
   display: block;
+  width: 100%;
 }
 
 .remember__svg_mob {
   display: block;
+  width: 100%;
 }
 
 .first-game {
@@ -365,7 +367,7 @@ body {
 }
 
 .remember {
-  width: 343px;
+  width: 100%;
 }
 
 .remember__svg {
