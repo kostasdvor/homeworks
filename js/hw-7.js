@@ -55,7 +55,7 @@ function getRandomNumbers(num) {
     const arr = [];
 
     for (let i = 0; i < arrLength; i++) {
-        arr.push(Math.floor(Math.random() * (num + 1))); //  Долго мучался с этим заданием, помогите разобраться до конца, пожалуйста. Я пишу в скобке "num+1", чтобы не получился нуль в рандоме, но если я "+1" вынесу за скобки у меня пропадет нуль из рандома вообще, если я "+1" не добавлю, то последнее значение не будет учитываться (в первом случае 7 не появится, во втором 12), так вот я не понимаю все равно почему конструкция "Math.random() * (num + 1)" работает, несмотря на то, если в Math.random() сгенерируется нуль, ведь при умножении на 0 все равно будет 0, не зависимо от того добавляем единицу или нет
+        arr.push(Math.floor(Math.random() * (num + 1))); 
     }
 
     return arr;
@@ -64,6 +64,7 @@ function getRandomNumbers(num) {
 console.log(getRandomNumbers(7));
 console.log(getRandomNumbers(12));
 
+// Math.round(Math.random() * (num))
 
 // Задание 7
 
